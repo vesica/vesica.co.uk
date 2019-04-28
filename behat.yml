@@ -1,0 +1,12 @@
+# behat.yml
+default:
+    base_uri: http://localhost:8001
+    autoload:
+        '': %paths.base%/tests/Features/bootstrap
+    suites:
+        default:
+            paths: %paths.base%/tests/Features
+    extensions:
+        Behat\MinkExtension:
+            goutte: ~
+            selenium2: ~

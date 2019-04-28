@@ -1,0 +1,20 @@
+connections:
+    database:
+        doctrine:
+            #host: mysql
+            host: 0.0.0.0
+            username: dev
+            password: dev
+            dbname: database
+            #port: 3306
+            port: 13306
+            mode: dev # dev or prod
+            driver: pdo_mysql
+    memcache:
+        host: 123.56.89.00
+        port: 12345
+
+slim:
+    settings:
+        display_error_details: true # use for debugging only
+        add_content_length: true # Adds content length header to all responses 
