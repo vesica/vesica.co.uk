@@ -1,6 +1,2 @@
-vendor/
-config/config.yml
-build/docs/api
-build/docs/php
-build/logs
-
+_site
+.idea
