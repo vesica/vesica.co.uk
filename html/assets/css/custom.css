@@ -36,6 +36,15 @@ ul.brands li a.title {
     color: #f2849e;
 }
 
+.color-blue {
+    color: #7ecaf6;
+}
+
+a.blue:hover {
+    border-bottom-color: transparent;
+    color: #7ecaf6 !important;
+}
+
 .color-tq {
     color: #86C3B2;
 }
